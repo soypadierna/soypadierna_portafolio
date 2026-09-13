@@ -55,6 +55,9 @@ function fileToBase64(file) {
 
 async function subirImagen(file, nombreBase) {
   const cfg = getConfig();
+
+  if (!cfg) throw new Error('No hay conexión guardada en este navegador/página. Guarda la conexión primero.');
+
   const ext = file.name.split('.').pop();
   const ruta = `imagenes/${nombreBase}-${Date.now()}.${ext}`;
   const contenido = await fileToBase64(file);
@@ -109,6 +112,9 @@ async function cargarProyectos() {
 
 async function guardarProyectos(mensaje) {
   const cfg = getConfig();
+
+  if (!cfg) throw new Error('No hay conexión guardada en este navegador/página. Guarda la conexión primero.');
+
   const contenido = serializarArchivo(proyectosActuales);
   const contenidoBase64 = btoa(unescape(encodeURIComponent(contenido)));
   const resultado = await githubRequest('projects.js', {
