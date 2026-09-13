@@ -1,19 +1,14 @@
-// ============================================================
-// CÓMO AGREGAR UN PROYECTO NUEVO
-// ------------------------------------------------------------
-// Copia el bloque de ejemplo de abajo, pégalo dentro del
-// arreglo `proyectos` (más abajo) y rellena los datos.
-// No necesitas imagen ni tocar ningún otro archivo.
-//
-// {
-//   curso: "ISW-304",      // código del curso (deja "" si no aplica)
-//   semestre: "2026-1",    // deja "" si no aplica
-//   titulo: "Nombre del proyecto",
-//   descripcion: "Una o dos frases: qué hiciste y qué resolvió.",
-//   stack: ["Java", "MySQL"],   // tecnologías, alimentan los filtros
-//   enlace: "https://github.com/tu-usuario/repo",  // repo, demo o PDF
-//   imagen: "imagenes/mi-proyecto.png"  // opcional, o "" si no hay
-// },
-// ============================================================
+// Este archivo lo genera admin.html. Para agregar, editar o
+// eliminar proyectos usa ese panel en vez de editar esto a mano.
 
-const proyectos = [];
+const proyectos = [
+  {
+    curso: "Testing",
+    semestre: "2026-2",
+    titulo: "Plan de prubas software",
+    descripcion: "Diseño del plan de pruebas de software para un sistema de gestión empresarial (clientes, productos, empleados y facturación), aplicando los 7 principios de testing",
+    stack: ["Word","Google documents"],
+    enlace: "",
+    imagen: "imagenes/plan-de-prubas-software-1789333117075.pdf"
+  }
+];
