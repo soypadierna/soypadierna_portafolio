@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Admin — Portafolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a href="index.html" class="logo">SG</a>
+  <nav><a href="index.html">Ver sitio</a></nav>
+</header>
+
+<section class="hero" style="padding-bottom:20px">
+  <h1>Publicar<br>proyecto</h1>
+  <p class="tagline">Solo tú deberías tener esta página abierta.</p>
+</section>
+
+<section class="proyectos">
+  <h2>1. Conexión con tu repo (una sola vez)</h2>
+  <form id="form-config" class="admin-form">
+    <label>Usuario de GitHub
+      <input id="cfg-owner" type="text" placeholder="tu-usuario" required>
+    </label>
+    <label>Nombre del repositorio
+      <input id="cfg-repo" type="text" placeholder="portafolio" required>
+    </label>
+    <label>Rama
+      <input id="cfg-branch" type="text" placeholder="main" value="main">
+    </label>
+    <label>Token de acceso personal (fine-grained, permiso "Contents: Read and write" solo en este repo)
+      <input id="cfg-token" type="password" placeholder="github_pat_..." required>
+    </label>
+    <button type="submit">Guardar conexión</button>
+  </form>
+
+  <h2 style="margin-top:50px">Proyectos existentes</h2>
+  <div id="lista-admin"></div>
+
+  <h2 style="margin-top:50px">2. Nuevo proyecto</h2>
+  <form id="form-proyecto" class="admin-form">
+    <label>Título
+      <input id="p-titulo" type="text" required>
+    </label>
+    <label>Curso (opcional)
+      <input id="p-curso" type="text" placeholder="ISW-304">
+    </label>
+    <label>Semestre (opcional)
+      <input id="p-semestre" type="text" placeholder="2026-1">
+    </label>
+    <label>Descripción
+      <textarea id="p-descripcion" rows="3" required></textarea>
+    </label>
+    <label>Tecnologías (separadas por coma)
+      <input id="p-stack" type="text" placeholder="Java, MySQL">
+    </label>
+    <label>Enlace (repo, demo o PDF)
+      <input id="p-enlace" type="url" placeholder="https://github.com/...">
+    </label>
+    <label>Imagen (opcional)
+      <input id="p-imagen" type="file" accept="image/*">
+    </label>
+    <button type="submit">Publicar proyecto</button>
+    <button type="button" id="btn-cancelar" style="display:none;margin-left:8px;background:transparent;color:var(--ink);border:1px solid var(--line);">Cancelar edición</button>
+  </form>
+
+  <p id="mensaje" style="margin-top:16px;font-size:14px;"></p>
+</section>
+
+<script src="admin.js"></script>
+</body>
+</html>
