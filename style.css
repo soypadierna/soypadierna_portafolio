@@ -309,3 +309,42 @@ footer {
   border-color: var(--red);
   color: var(--red);
 }
+
+.detalle-meta {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  color: var(--ink-soft);
+  margin: 0 0 8px;
+}
+
+.detalle-titulo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: clamp(30px, 6vw, 48px);
+  line-height: 1.02;
+  margin: 0 0 24px;
+}
+
+.detalle-img {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  display: block;
+  margin-bottom: 24px;
+  border: 1px solid var(--line);
+}
+
+.detalle-desc {
+  max-width: 60ch;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.detalle-enlace {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  color: var(--red);
+  border-bottom: 1px solid var(--red);
+}

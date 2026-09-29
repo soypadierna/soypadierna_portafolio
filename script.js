@@ -1,3 +1,10 @@
+function slugify(str) {
+  return str.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)/g, '');
+}
+
 const lista = document.getElementById('lista-proyectos');
 const filtrosEl = document.getElementById('filtros');
 let filtroActivo = null;
@@ -36,7 +43,7 @@ function renderLista() {
   }
 
   lista.innerHTML = items.map(p => `
-    <a class="proyecto" href="${p.enlace || '#'}" target="_blank" rel="noopener">
+    <a class="proyecto" href="proyecto.html?p=${p.id || slugify(p.titulo)}">
       <div class="proyecto-meta">${[p.curso, p.semestre].filter(Boolean).join('<br>')}</div>
       <div>
         ${p.imagen ? `<img class="proyecto-img" src="${p.imagen}" alt="">` : ''}

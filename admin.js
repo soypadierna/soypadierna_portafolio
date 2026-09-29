@@ -81,6 +81,7 @@ const ENCABEZADO = `// Este archivo lo genera admin.html. Para agregar, editar o
 
 function serializarProyecto(p) {
   return `  {
+    id: ${JSON.stringify(p.id || '')},
     curso: ${JSON.stringify(p.curso || '')},
     semestre: ${JSON.stringify(p.semestre || '')},
     titulo: ${JSON.stringify(p.titulo || '')},
@@ -227,7 +228,13 @@ document.getElementById('form-proyecto').addEventListener('submit', async e => {
     if (archivoImagen) {
       rutaImagen = await subirImagen(archivoImagen, slugify(titulo));
     }
+    
+    const id = indiceEditando !== null
+      ? (proyectosActuales[indiceEditando].id || slugify(proyectosActuales[indiceEditando].titulo))
+      : 'p' + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+
     const datos = {
+      id,
       curso: document.getElementById('p-curso').value.trim(),
       semestre: document.getElementById('p-semestre').value.trim(),
       titulo,
