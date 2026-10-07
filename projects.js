@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmuyabz0mf4p1",
+    curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
+    semestre: "2026-2",
+    titulo: "Integrales indefinidas",
+    descripcion: "En esta actividad puse en práctica las reglas de integración resolviendo paso a paso los ejercicios propuesto.\n\n¡Manos a la obra!",
+    stack: ["Calculo Integral","Integrales Indefinidas","Word"],
+    enlace: "https://drive.google.com/file/d/1tQZl1LTtYSN2VOXV5kNyX67KCs6cU3ID/view?usp=sharing",
+    imagen: "imagenes/integrales-indefinidas-1791388281775.png"
+  },
+  {
     id: "plan-de-prubas-software",
     curso: "Testing",
     semestre: "2026-2",
