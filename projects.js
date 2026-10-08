@@ -18,9 +18,9 @@ const proyectos = [
     semestre: "2026-2",
     titulo: "Integrales indefinidas",
     descripcion: "En esta actividad puse en práctica las reglas de integración resolviendo paso a paso los ejercicios propuesto.\n\n¡Manos a la obra!",
-    stack: ["Calculo Integral","Integrales Indefinidas","Word"],
+    stack: ["Calculo Integral","Integrales Indefinidas","Word","Google Documents"],
     enlace: "https://drive.google.com/file/d/1tQZl1LTtYSN2VOXV5kNyX67KCs6cU3ID/view?usp=sharing",
-    imagen: "imagenes/integrales-indefinidas-1791388281775.png"
+    imagen: "imagenes/integrales-indefinidas-1791463722939.png"
   },
   {
     id: "plan-de-prubas-software",
