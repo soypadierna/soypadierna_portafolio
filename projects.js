@@ -7,10 +7,10 @@ const proyectos = [
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
     titulo: "Opinión REDA Integrales por partes",
-    descripcion: "¿Cómo aporta el REDA para el desarrollo de los contenidos abordados en el curso? \n\nEl REDA aporta al desarrollo de los contenidos del curso porque permite comprender de una manera más clara y práctica el tema de integrales por partes. Los ejemplos y explicaciones facilitan el aprendizaje y ayudan a identificar los pasos que se deben seguir para resolver los ejercicios. Además, permite reforzar lo aprendido mediante la práctica y el estudio independiente. Considero que es un recurso útil para complementar las clases y mejorar la comprensión de las integrales.",
+    descripcion: "Una reflexión sobre cómo el REDA facilita el aprendizaje de las integrales por partes y complementa los contenidos vistos durante el curso.",
     stack: ["Word","Google documents"],
-    enlace: "",
-    imagen: "imagenes/opinion-reda-integrales-por-partes-1791463683021.png"
+    enlace: "https://docs.google.com/document/d/1HCQmlyBpQpK5dhEr8wz_wWYhSrgriL0G/edit?usp=sharing&ouid=111107587118651091785&rtpof=true&sd=true",
+    imagen: "imagenes/opinion-reda-integrales-por-partes-1791464655832.png"
   },
   {
     id: "pmuyabz0mf4p1",
