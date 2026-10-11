@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmv4grdx6gh51",
+    curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
+    semestre: "2026-2",
+    titulo: "Taller: Teorema fundamental del cálculo, áreas y volúmenes",
+    descripcion: "¡De las funciones al volumen! 📐 En esta actividad aprendí a encontrar los puntos de intersección entre curvas y a aplicar integrales definidas para calcular volúmenes de sólidos de revolución, fortaleciendo mis habilidades de análisis matemático y visualización gráfica.",
+    stack: ["Integrales definidas","funciones algebraicas","puntos de intersección","sólidos de revolución","método de discos","cálculo de volúmenes","GeoGebra","Word","Google Documents"],
+    enlace: "https://docs.google.com/document/d/1xwHA4BBqk9A_HVsZHqYS92nuH4nkG_QH/edit?usp=sharing&ouid=111107587118651091785&rtpof=true&sd=true",
+    imagen: "imagenes/taller-teorema-fundamental-del-calculo-areas-y-volumenes-1791761875471.png"
+  },
+  {
     id: "pmuzj82xh1lvl",
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
