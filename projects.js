@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmvclfc0csmlk",
+    curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
+    semestre: "2026-2",
+    titulo: "Técnicas de Integración",
+    descripcion: "En esta actividad pondré a prueba mis habilidades matemáticas resolviendo ejercicios de integración paso a paso, fortaleciendo mis conocimientos y demostrando mi aprendizaje en el blog portafolio.",
+    stack: ["Técnicas de integración","integración por sustitución","integración por partes","resolución de integrales indefinidas","aplicación de fórmulas de integración","simplificación algebraica","verificación de resultados","Word","Google Documents"],
+    enlace: "https://docs.google.com/document/d/1ZkOWw4_deDieEK-cD2xH6Uee_apyIlIz/edit?usp=sharing&ouid=111107587118651091785&rtpof=true&sd=true",
+    imagen: "imagenes/tecnicas-de-integracion-1792253441387.png"
+  },
+  {
     id: "pmv4grdx6gh51",
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
