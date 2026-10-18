@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmve32f6iuvdq",
+    curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
+    semestre: "2026-2",
+    titulo: "Opinión REDA: Área entre curvas",
+    descripcion: "¡Aprender matemáticas de forma interactiva! El REDA me permitió comprender mejor el área entre curvas, fortaleciendo mis conocimientos mediante gráficas, ejercicios prácticos y herramientas digitales que hacen del aprendizaje una experiencia más dinámica y significativa.",
+    stack: ["Word","Google documents"],
+    enlace: "https://docs.google.com/document/d/1Op9--fkdG6YbVpwZH4fBxtVknTei4eLi/edit?usp=sharing&ouid=111107587118651091785&rtpof=true&sd=true",
+    imagen: "imagenes/opinion-reda-area-entre-curvas-1792343538072.png"
+  },
+  {
     id: "pmve266llclsy",
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
