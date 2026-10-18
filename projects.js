@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmve266llclsy",
+    curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
+    semestre: "2026-2",
+    titulo: "Áreas y volúmenes",
+    descripcion: "En esta actividad resolví ejercicios de áreas entre curvas y volúmenes, aplicando los conceptos estudiados mediante procedimientos paso a paso, papel y lápiz, fortaleciendo mis habilidades matemáticas y mi razonamiento lógico.",
+    stack: ["Área entre curvas","Volúmenes de sólidos","Word","Google documents"],
+    enlace: "https://docs.google.com/document/d/1z_0nfSVrbCSkPC4hbTx6wvXJxKFmnlLX/edit?usp=sharing&ouid=111107587118651091785&rtpof=true&sd=true",
+    imagen: "imagenes/areas-y-volumenes-1792342033972.png"
+  },
+  {
     id: "pmvclfc0csmlk",
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
