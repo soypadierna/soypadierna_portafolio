@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmvpfz7vztqab",
+    curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
+    semestre: "2026-2",
+    titulo: "Antiderivas",
+    descripcion: "En esta actividad exploramos el mundo de las integrales, aplicando diferentes métodos para resolver ejercicios paso a paso. Fortalecimos nuestro razonamiento matemático y aprendimos que, con las técnicas adecuadas, ¡cada problema tiene solución!",
+    stack: ["Integrales indefinidas","regla de la potencia","método de sustitución","integración por partes","identidades trigonométricas","sustitución trigonométrica","fracciones parciales","integrales logarítmicas"],
+    enlace: "https://docs.google.com/document/d/1Tz4gbTshkIIkB3dSTl2KHf6d4X3N_pQR/edit?usp=sharing&ouid=111107587118651091785&rtpof=true&sd=true",
+    imagen: "imagenes/antiderivas-1793030348013.png"
+  },
+  {
     id: "pmve32f6iuvdq",
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
