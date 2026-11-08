@@ -10,7 +10,7 @@ const proyectos = [
     descripcion: "Desarrollo de la activida Integrales definidas",
     stack: ["Integral definida"],
     enlace: "https://docs.google.com/document/d/1BB8Z173iBmMRAqJAYQTGMPHd1ueyK2ZN/edit",
-    imagen: ""
+    imagen: "imagenes/aplicaciones-de-la-integral-definida-1794182246563.png"
   },
   {
     id: "pmw8gu5i0yc06",
