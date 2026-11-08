@@ -6,7 +6,7 @@ const proyectos = [
     id: "pmw8gu5i0yc06",
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
-    titulo: "TALLER SUCESIONES",
+    titulo: "Taller sucesiones",
     descripcion: "Análisis de Sucesiones y Convergencia: Resolución paso a paso de ejercicios prácticos sobre cálculo de límites al infinito, demostraciones con el Teorema de la Sucesión Monótona y deducción de fórmulas explícitas.",
     stack: ["Sucesiones numéricas","Convergencia y divergencia","Cálculo de límites al infinito","Teorema de la sucesión monótona"],
     enlace: "https://docs.google.com/document/d/11jpi4a_ZXD_Ha8fAQ_ZvkQOGW0-AoCY3/edit?usp=sharing&ouid=111107587118651091785&rtpof=true&sd=true",
