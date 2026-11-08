@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmw8hrrcr1uy7",
+    curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
+    semestre: "2026-2",
+    titulo: "Aplicaciones de la integral definida",
+    descripcion: "Desarrollo de la activida Integrales definidas",
+    stack: ["Integral definida"],
+    enlace: "https://docs.google.com/document/d/1BB8Z173iBmMRAqJAYQTGMPHd1ueyK2ZN/edit",
+    imagen: ""
+  },
+  {
     id: "pmw8gu5i0yc06",
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
