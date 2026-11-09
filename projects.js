@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmw9jakr3q4w2",
+    curso: "G100 Herramientas de Programación III",
+    semestre: "2026-2",
+    titulo: "La importancia de Bootstrap en el desarrollo de páginas HTML",
+    descripcion: "Crear una interfaz web atractiva y funcional solo con HTML y CSS puro exige mucho tiempo y conocimientos de diseño. Por eso, herramientas como Bootstrap se han vuelto esenciales para cualquier desarrollador.\n\nBootstrap es un framework de código abierto que ofrece componentes listos para usar (botones, formularios, menús de navegación, tarjetas y modales) y un sistema de rejilla (grid) para construir diseños responsivos. Así, una misma página se adapta automáticamente a celulares, tablets y computadores, algo indispensable cuando la mayor parte del tráfico web llega desde dispositivos móviles.\n\nSus principales ventajas son el ahorro de tiempo, la consistencia visual entre páginas, la compatibilidad con los navegadores modernos y una documentación amplia respaldada por una gran comunidad. Además, mejora la experiencia de usuario, objetivo primordial de toda interfaz web: que el visitante navegue de forma fácil, eficaz y cómoda.\n\nBootstrap tampoco limita la creatividad: puede personalizarse con CSS y JavaScript propios para darle identidad al sitio. En conclusión, usar herramientas como Bootstrap permite dedicar menos tiempo a corregir estilos y más a crear contenido y funcionalidades de valor, elevando la calidad profesional de cualquier proyecto web.",
+    stack: ["Boostrap"],
+    enlace: "",
+    imagen: "imagenes/la-importancia-de-bootstrap-en-el-desarrollo-de-paginas-html-1794245243177.png"
+  },
+  {
     id: "pmw8hrrcr1uy7",
     curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
     semestre: "2026-2",
