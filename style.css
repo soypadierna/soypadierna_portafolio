@@ -348,3 +348,60 @@ footer {
   color: var(--red);
   border-bottom: 1px solid var(--red);
 }
+
+.unidad-titulo {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 16px;
+  color: var(--ink-soft);
+  margin: 36px 0 4px;
+}
+
+.contenido-md { max-width: 68ch; font-size: 16px; line-height: 1.65; }
+.contenido-md h1, .contenido-md h2, .contenido-md h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  line-height: 1.2;
+  margin: 1.6em 0 .5em;
+}
+.contenido-md img, .contenido-md video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.2em 0;
+  border: 1px solid var(--line);
+}
+.contenido-md .video { position: relative; aspect-ratio: 16 / 9; margin: 1.2em 0; }
+.contenido-md .video iframe {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  border: 1px solid var(--line);
+}
+.contenido-md a { color: var(--red); border-bottom: 1px solid var(--red); }
+.contenido-md blockquote {
+  margin: 1.2em 0; padding-left: 16px;
+  border-left: 3px solid var(--red); color: var(--ink-soft);
+}
+.contenido-md code {
+  font-family: 'IBM Plex Mono', monospace; font-size: .9em;
+  background: #EFEBE0; padding: 1px 5px;
+}
+.contenido-md pre { background: #EFEBE0; padding: 14px; overflow-x: auto; }
+.contenido-md pre code { background: none; padding: 0; }
+.contenido-md table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.contenido-md th, .contenido-md td { border: 1px solid var(--line); padding: 6px 10px; text-align: left; }
+
+.rel-titulo { font-family: 'Space Grotesk', sans-serif; font-size: 18px; margin: 48px 0 12px; }
+.rel-lista { display: flex; flex-wrap: wrap; gap: 10px; }
+.rel-lista a { border: 1px solid var(--line); padding: 6px 12px; font-size: 14px; }
+.rel-lista a:hover { border-color: var(--red); color: var(--red); }
+
+.admin-form.admin-form-ancho { max-width: 760px; }
+.admin-form label.check { flex-direction: row; align-items: center; gap: 8px; }
+.admin-form label.check input { width: auto; }
+.checks { display: flex; flex-direction: column; gap: 6px; margin-top: 6px; }
+.lbl { font-size: 13px; color: var(--ink-soft); }
+.admin-form textarea.md { min-height: 320px; font-family: 'IBM Plex Mono', monospace; font-size: 13px; }
+.preview { border: 1px dashed var(--line); padding: 16px; margin-top: 6px; min-height: 40px; }
+.admin-toolbar { display: flex; flex-wrap: wrap; gap: 8px; }
+.admin-form .admin-toolbar button {
+  background: transparent; color: var(--ink); border: 1px solid var(--line);
+  font-size: 12px; padding: 6px 10px;
+}

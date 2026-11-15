@@ -67,9 +67,58 @@
     <button type="button" id="btn-cancelar" style="display:none;margin-left:8px;background:transparent;color:var(--ink);border:1px solid var(--line);">Cancelar edición</button>
   </form>
 
+  <h2 style="margin-top:60px">Entradas (blog)</h2>
+  <div id="lista-entradas-admin"></div>
+
+  <h2 style="margin-top:30px">Nueva entrada</h2>
+  <form id="form-entrada" class="admin-form admin-form-ancho">
+    <label>Título
+      <input id="e-titulo" type="text" required>
+    </label>
+    <label>Unidad
+      <input id="e-unidad" type="text" placeholder="Unidad 2" required>
+    </label>
+    <label>Fecha
+      <input id="e-fecha" type="date" required>
+    </label>
+    <label>Resumen (una línea, sale en el listado)
+      <input id="e-resumen" type="text">
+    </label>
+    <label>Etiquetas (separadas por coma)
+      <input id="e-etiquetas" type="text" placeholder="Pruebas manuales, Supabase">
+    </label>
+    <div>
+      <span class="lbl">Proyectos relacionados</span>
+      <div id="e-proyectos" class="checks"></div>
+    </div>
+    <div class="admin-toolbar">
+      <button type="button" id="btn-img">Insertar imagen</button>
+      <button type="button" id="btn-video">Insertar video</button>
+      <button type="button" id="btn-archivo">Adjuntar archivo</button>
+      <button type="button" id="btn-enlace">Insertar enlace</button>
+    </div>
+    <input id="e-file-img" type="file" accept="image/*" hidden>
+    <input id="e-file-doc" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.zip" hidden>
+    <label>Contenido (Markdown)
+      <textarea id="e-contenido" class="md" rows="16"></textarea>
+    </label>
+    <div>
+      <span class="lbl">Vista previa</span>
+      <div id="e-preview" class="preview contenido-md"></div>
+    </div>
+    <div>
+      <button type="submit">Publicar entrada</button>
+      <button type="button" id="btn-cancelar-entrada" style="display:none;margin-left:8px;background:transparent;color:var(--ink);border:1px solid var(--line);">Cancelar edición</button>
+    </div>
+  </form>
+
   <p id="mensaje" style="margin-top:16px;font-size:14px;"></p>
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
+<script src="markdown.js"></script>
 <script src="admin.js"></script>
+<script src="admin-entradas.js"></script>
 </body>
 </html>
