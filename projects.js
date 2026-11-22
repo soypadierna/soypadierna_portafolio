@@ -3,6 +3,16 @@
 
 const proyectos = [
   {
+    id: "pmwsgbdcbc5jx",
+    curso: "G100 Cálculo Integral (FB1400) - Profesor: Luis Alfonso Zuniga Lopez (2026-2)",
+    semestre: "2026-2",
+    titulo: "Portafolio Unidad 3",
+    descripcion: "Reuní en tres entradas mis ejercicios resueltos a mano de sucesiones y series infinitas, y mi opinión sobre el REDA, de la Unidad 3 de Cálculo Integral.",
+    stack: ["Cálculo integral","Sucesiones","Series infinitas"],
+    enlace: "https://docs.google.com/document/d/1sIr6Whkd6XYf3lIsw2NP1U1Iq6OVwQjP/edit?usp=sharing&ouid=111107587118651091785&rtpof=true&sd=true",
+    imagen: "imagenes/portafolio-unidad-3-1795389098752.png"
+  },
+  {
     id: "pmw9jakr3q4w2",
     curso: "G100 Herramientas de Programación III",
     semestre: "2026-2",
