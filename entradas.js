@@ -3,6 +3,16 @@
 
 const entradas = [
   {
+    id: "emwsfpwb9fvpy",
+    unidad: "Unidad 3",
+    fecha: "2026-11-22",
+    titulo: "Opinión REDA Sucesiones",
+    resumen: "Opinión argumentada sobre cómo el REDA de sucesiones aporta al desarrollo de los contenidos del curso.",
+    etiquetas: ["REDA","sucesiones","cálculo integral","unidad 3","opinión"],
+    proyectos: [],
+    contenido: "## Pregunta orientadora\n\n¿Cómo aporta el REDA para el desarrollo de los contenidos abordados en el curso?\n\n## Mi opinión\n\nConsidero que el REDA de sucesiones aporta de manera significativa al desarrollo de los contenidos del curso, porque complementa la guía de clase con un recurso que puedo consultar a mi propio ritmo y cuantas veces lo necesite. Antes de resolver los ejercicios de la guía, el REDA me permitió reforzar los conceptos básicos de las sucesiones, de modo que llegué al trabajo con papel y lápiz con una base más clara. Además, al ser un recurso digital y abierto, puedo volver a él cuando una duda aparece en medio de un ejercicio, sin depender únicamente de la clase. Esto fortalece mi autonomía, porque me obliga a identificar qué parte del tema no he comprendido y a buscar cómo resolverla. Por todo esto, creo que el REDA no reemplaza el estudio de la guía, sino que lo apoya y lo hace más completo, y que ese apoyo se refleja en la calidad con que pude desarrollar los ejercicios de la unidad."
+  },
+  {
     id: "emwsfodt52w09",
     unidad: "Unidad 3",
     fecha: "2026-11-22",
